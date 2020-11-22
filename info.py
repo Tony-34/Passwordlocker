@@ -1,6 +1,6 @@
 class Info:
     '''
-    clsass that generates instances of the users information
+    clsass that generates instances of the users credentials
     '''
     info_list = []
 
@@ -12,22 +12,25 @@ class Info:
         self.facebookusername = facebookusername
         self.twitusername = twitusername
         self.instagramusername = instagramusername
-        def save_info(self):
+
+    def save_info(self):
             '''
-            method created to save information
+            method created to save credentials
             '''
             Info.info_list.append(self)
 
-            def delete_info(self):
+    def delete_info(self):
                 '''
-                method that deletes information
+                method that deletes credentials
                 '''
                 Info.info_list.remove(self)
 
-                @classmethod
-                def display_info(cls):
-                    '''
-                    a class method involves the whole class the display info
-                    '''
+    @classmethod
 
-                    return cls.info_list
+
+    def display_info(cls):
+        '''
+        a class method involves the whole class the display info
+        '''
+
+        return cls.info_list
