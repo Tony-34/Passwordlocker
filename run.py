@@ -7,8 +7,8 @@ def created_account(fname,lname,email):
    new_user = User(fname,lname,email)
    return new_user
 
-def create_credentials(facebookp,emailp,instagrampas,twitterpas,facebookusername,instagramusername,twitusername):
-    new_cred = Info(facebookp,emailp,instagrampas,twitterpas,facebookusername,twitusername,instagramusername)
+def create_credentials(facebookp,emailp,instagrampas,twitterps,facebookusername,instagramusername,twitusername):
+    new_cred = Info(facebookp,emailp,instagrampas,twitterps,facebookusername,twitusername,instagramusername)
     return new_cred
 def save_account(user):
     user.save_user()

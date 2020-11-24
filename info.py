@@ -4,11 +4,11 @@ class Info:
     '''
     info_list = []
 
-    def _init_(self,facebookp,emailp,instagramps,twitterpas,facebookusername,twitusername,instagramusername):
+    def _init_(self,facebookp,emailp,instagramps,twitterps,facebookusername,twitusername,instagramusername):
         self.facebookp = facebookp
         self.emailp = emailp
         self.instagramps = instagramps
-        self.twitterpas = twitterpas
+        self.twitterps = twitterps
         self.facebookusername = facebookusername
         self.twitusername = twitusername
         self.instagramusername = instagramusername
