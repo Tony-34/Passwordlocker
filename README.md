@@ -1,7 +1,7 @@
-Password Locker
+## Password Locker
 This is a terminal application that allows the user to create and save their credentials and also generates passwords for them.
 
-BDD(Behavior Driven Development)
+## BDD(Behavior Driven Development)
 Given : the user has access to this application
 
 Then: The user is able to create account using the shortcodes
@@ -10,9 +10,9 @@ cn -to create account
 disp -to display the available credentials or passwords
 ex - to exit the application
 gs - to generate password
-Author
+#### Author
 Tony Abong'o
-Installations
+#### Installations
 For easy access to this application you need to install python to your machine .For linux operating systems simpley run this command for installation of python on your terminal
 
 $ sudo apt-get install python3.9
@@ -34,7 +34,7 @@ $ python3 run.py
 Collaboration
 If you would like to collaborate fork the project and clone it by following the above steps
 
-Technologies Used
+#### Technologies Used
 Python
 Contacts and Support
 If you would like to ask questions,or need help or would like us to expand on the project feel free to reach out tr33947@gmail.com
